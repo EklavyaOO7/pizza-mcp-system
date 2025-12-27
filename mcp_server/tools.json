@@ -1,0 +1,22 @@
+[
+  {
+    "name": "get_menu",
+    "description": "Get pizza menu",
+    "input_schema": {}
+  },
+  {
+    "name": "post_order",
+    "description": "Place pizza order",
+    "input_schema": {
+      "pizza": "string",
+      "size": "string"
+    }
+  },
+  {
+    "name": "get_order_{order_id}",
+    "description": "Get order status",
+    "input_schema": {
+      "order_id": "string"
+    }
+  }
+]
